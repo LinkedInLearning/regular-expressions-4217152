@@ -1,0 +1,12 @@
+POSIX (Portable Operating System Interface)
+
+Beispiel: 
+grep '^a' input.txt
+
+Perl-Standard/Perl-reguläre Ausdrücke/
+PCRE - Perl-Compatible Regular Expressions 
+
+Beispiel: 
+if ($line =~ /^a/) {
+    print "Das Wort beginnt mit 'a'\n";
+}
