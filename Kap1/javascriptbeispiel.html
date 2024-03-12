@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <title>JavaScript-Schablone für reguläre Ausdruecke</title>
+    <script type="text/javascript">
+      var reg = new RegExp("[a-c]");
+      var feld = "Wer reitet so spät durch Nacht und Wind?";
+      if (!reg.test(feld)) {
+        console.log("Kein Treffer");
+      } else {
+        console.log("Treffer");
+      }
+    </script>
+  </head>
+  <body></body>
+</html>
