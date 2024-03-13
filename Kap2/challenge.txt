@@ -1,0 +1,12 @@
+Challenge 1
+
+Wie kann der Suchausdruck aussehen, mit dem Sie entweder den Begriff Sohn oder Vater in einem Text finden?
+
+Challenge 2
+Wie kann der Suchausdruck aussehen, mit dem Sie alle Begriffe in einem Text finden, die mindestens 5 und maximal 8 Zeichen lang sind? Whitespace dürfen in den Begriffe nicht auftauchen.
+
+Challenge 3
+Beschreibe die Struktur einer Telefonnummer mit Landesvorwahl und Ortvorwahl, die ohne die führende 0 angehängt wird. Für die Landesvorwahl sollen sowohl das +-Zeichen als auch alternativ zwei Nullen möglich sein. Die Telefonnummer soll mindesten 3 Ziffern lang sein. Sie kann optional von der Vorwahl durch ein Leerzeichen oder einen Bindestrich getrennt werden oder direkt an die Ortvorwahl notiert werden.
+
+
+
