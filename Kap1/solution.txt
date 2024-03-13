@@ -1,0 +1,23 @@
+Challenge 1
+Wie kann der Suchausdruck aussehen, mit dem Sie alle e oder E sowie alle Zahlen in einem Text finden? 
+
+Solution 1
+[eE0-9]
+
+Challenge 2
+Wie kann der Suchausdruck aussehen, mit dem Sie alle zweistelligen Zahlen in einem Text finden?
+
+Solution 2
+[0-9][0-9]
+
+Challenge 3
+Wie kann der Suchausdruck aussehen, mit dem Sie alle Begriffe in einem Text finden, die mit einem beliebigen Buchstaben beginnen, denen dann ein o und ein t folgen?
+
+Solution 3
+[a-zA-Z]ot
+
+Challenge 4
+Beschreiben Sie das Pattern, um einen Treffer für eine Zahl zu erhalten, gefolgt von einem beliebigen Zeichen außer dem Großbuchstaben S. Anschließend folgt ein beliebiger Buchstabe außer den Kleinbuchstaben r, s, t, u und v.
+
+Solution 4
+[0-9][^S][a-qw-zA-Z]
