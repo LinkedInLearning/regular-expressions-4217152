@@ -5,44 +5,20 @@ Dies ist das Repository für den **LinkedIn Learning** Kurs `Reguläre Ausdrück
 ![COURSENAME][lil-thumbnail-url] 
 
 
-[COURSEDESCRIPTION]
+Lernen Sie in diesem LinkedIn Learning-Kurs anhand einfacher Beispiele, wie RegEx funktioniert. Reguläre Ausdrücke (engl. Regular Expressions oder kurz RegEx) sind kleine Suchmuster, die in vielen Programmiersprachen, aber auch in Anwendungsprogrammen implementiert sind. Sie machen die Arbeit mit Texten komfortabler und einfacher, wenn man nach bestimmten Inhalten sucht, die sich logisch beschreiben lassen. Ihr Trainer Ralph Steyer demonstriert auch, wie Sie reguläre Ausdrücke in Chat- und KI-Tools effektiv zum Einsatz bringen.
 
 ## Anleitung
 
-Dieses Repository hat Branches für jedes Video im Kurs. Verwenden Sie das Ausklappmenü "Branch: ..." in GitHub um zwischen den unterschiedlichen Branches hin und her zu wechseln bzw. um bei einem spezifischen Status einzusteigen. Oder Sie fügen `/tree/BRANCH_NAME` der URL hinzu um direkt in den gewünschten Branch zu wechseln.
-
-## Branches
-
-Die Git Branches sind passend zu den Videos im Kurs strukturiert. Die Namenskonvention lautet `Kapitel#_Video#`. Der Branch `02_03` beinhaltet zum Beispiel die Übungen für das dritte Video im zweiten Kapitel. 
-Einige Branches haben einen Anfangsstatus (`b`) für "beginning" und einen Endstatus (`e`). Der Branch mit dem `e` am Ende beinhaltet in diesem Fall stets den Code der am Ende des Videos zu sehen ist. Der `master` Branch beinhaltet den initialen Quellcode und wird nicht für die Übungen innerhalb des Kurses genutzt.
-
-Wenn Sie von einem Branch nach Änderungen zum nächsten Branch wechseln, erhalten Sie möglicherweise die folgende Meldung:
-
-```
-error: Your local changes to the following files would be overwritten by checkout:        [files]
-Please commit your changes or stash them before you switch branches.
-Aborting
-```
-
-Dieses Problem lösen Sie wie folgt:
-    Add changes to git using this command: git add .
-    Commit changes using this command: git commit -m "some message"
-
-## Installation
-
-1. Um diese Übungsdateien nutzen zu können, müssen Sie folgendes installiert haben:
-   - [list of requirements for course]
-2. Klonen Sie das Repository in Ihre lokale Maschine unter Verwendung von terminal (Mac), CMD (Windows) oder ein anderes Werkzeug mit grafischer Bedienoberfläche wie SourceTree.
-3. [Course-specific instructions]
+Alle Codebeispiele finden Sie in Unterordner passend zu den Kapiteln.
 
 ### Autor
 
-**[Name hier eintragen]**
+Ralph Steyer
 
-_[Berufsbezeichnung hier eintragen]_
+_Diplom Mathematiker_
 
-Sehen Sie sich andere Kurse des Autors auf [LinkedIn Learning](https://www.linkedin.com/learning/instructors/name_des_autors) an.
+Sehen Sie sich andere Kurse des Autors auf [LinkedIn Learning](https://www.linkedin.com/learning/instructors/ralph-steyer) an.
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
-[lil-course-url]: https://www.linkedin.com
-[lil-thumbnail-url]: https:
+[lil-course-url]: https://www.linkedin.com/learning/regulare-ausdrucke-lernen
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D4D0DAQGUnzFDxrW31A/learning-public-crop_675_1200/0/1719390331422?e=2147483647&v=beta&t=BjDt3AJx-mUT8niJu4rUGEVFePTCe4zezKISNVLItK8
